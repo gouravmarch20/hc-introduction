@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #03203c;
+  overflow: hidden !important;
+
+  min-height: 90vh;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+}
+h2 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #8d3daf;
+}
+
+a {
+  display: block;
+  max-width: 400px;
+  margin: 0 auto 15px;
+  padding: 15px 20px;
+  font-size: 1rem;
+  color: #46b2e0;
+  border: 2px solid #fff;
+  border-color: #f4be2c;
+
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+footer {
+  max-height: 3rem;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+
+  color: white;
+  text-align: center;
+}
+
+
+span {
+  font-family: "Permanent Marker", cursive;
+}
